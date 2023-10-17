@@ -1,0 +1,67 @@
+debug = false
+disable_crowdin = false
+check_for_updates = true
+
+key_bindings = []
+
+
+
+[voice]
+disabled = false
+microphone_disabled = false
+activation_threshold = -30.0
+input_device = ""
+output_device = ""
+disable_input_device = false
+use_javax_input = false
+microphone_volume = 1.0
+noise_suppression = true
+volume = 1.0
+compressor_limiter = true
+sound_occlusion = false
+directional_sources = false
+hrtf = false
+stereo_capture = false
+
+[voice.volumes.source_fb6cc6fb-ec55-4838-ab0b-276806d0c8ae]
+volume = 1.0
+[voice.volumes.source_160f767d-982d-43c8-814a-d172be9b3dbb]
+volume = 1.0
+[voice.volumes.source_322b22da-6cc4-47d3-85c0-f7c72bc9b0b1]
+volume = 1.0
+[voice.volumes.source_0419896f-9d90-3c34-92ae-4d8389f15938]
+volume = 1.0
+[voice.volumes.proximity]
+volume = 1.0
+[voice.volumes.source_5e368872-ccc6-4b5d-917a-0dc9f470df99]
+volume = 1.0
+[voice.volumes.source_06470804-b7d6-4887-a937-24983cf3fdd7]
+volume = 1.0
+[voice.volumes.source_d41a41b6-738e-47d1-87eb-ec12e86185f0]
+volume = 1.0
+[voice.volumes.source_711cd07a-1dc7-43ad-9e9d-3c313997699c]
+volume = 1.0
+
+[advanced]
+visualize_voice_distance = true
+visualize_voice_distance_on_join = false
+compressor_threshold = -10
+limiter_threshold = -6
+directional_sources_angle = 145
+stereo_sources_to_mono = false
+panning = true
+camera_sound_listener = true
+exponential_volume_slider = true
+exponential_distance_gain = true
+
+[overlay]
+show_activation_icon = true
+activation_icon_position = "BOTTOM_CENTER"
+show_source_icons = 0
+show_static_source_icons = true
+overlay_enabled = true
+overlay_position = "TOP_LEFT"
+overlay_style = "NAME_SKIN"
+
+[overlay.source_states]
+proximity = "OFF"

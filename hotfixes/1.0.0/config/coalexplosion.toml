@@ -1,0 +1,4 @@
+[general]
+explosionRange = 5.0
+causeFire = false
+configuredIgniters = ["minecraft:golden_pickaxe", "minecraft:wooden_pickaxe"]
